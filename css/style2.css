@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+ background-color: #f2f2f2;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sepete-ekle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sepet {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 0px solid #ccc;
+  text-align: center;
+}
+
+.sepet-çerçevesi {
+  border: 3px solid #2c3350;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.search-box {
+  float:right;
+   margin-left: 10px;
+  position: absolute; top: 10px; right: 10px;
+  border: 2px;
+  padding:10px;
+}
+button {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+.arama-butonu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"]{
+  padding:8px;
+  border:2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sepete-ekle-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sepete-ekle-btn:hover {
+  background-color: #0056b3;
+}
+footer {
+  background-color: #2c3350;
+  color: #ecf0f1;
+  padding: 0px 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  transition: bottom 0.3s;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  position: absolute;
+  top: -70px;
+  left: 30px;
+  float: left;
+  height: 30px; 
+  width: 30px; 
+  border-radius: 50%;
+  object-fit: cover;
+  transform: scale(0.6);
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+}
